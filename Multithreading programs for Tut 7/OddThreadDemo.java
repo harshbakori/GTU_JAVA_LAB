@@ -32,7 +32,5 @@ class OddThreadDemo
 		Thread t2= new Thread(new EvenNumThread());
 		t1.start();
 		t2.start();
-		
-						
 	}
 }	
