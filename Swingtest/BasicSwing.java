@@ -7,6 +7,7 @@ public class BasicSwing extends JFrame{
 	JTextField t=new JTextField("Hi",20);
 	JTextArea ta=new JTextArea(5,20);
 	JLabel l=new JLabel("What's up");
+	setDefaultCloseOperation(JPanel.dis);
 /*	String choices[]={
 		"Hallo",
 		"Bonjour",

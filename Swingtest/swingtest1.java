@@ -15,7 +15,7 @@ class Mainframe extends JFrame  //modifiying j frame for our convineant
         add(button);
         add(textArea);
 
-        button.addActionListener(new ActionListener()
+        button.addActionListener(new ActionListener())
         {
 
         });

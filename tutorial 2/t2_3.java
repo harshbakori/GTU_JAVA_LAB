@@ -1,9 +1,9 @@
-import java.util.random;
+import java.util.*;
 public class t2_3 {
   public static void main(String[]args) {
     int setCount = 5;                                                  // Number of sets of lucky numbers.
     int setSize = 6;                                                   // Number of lucky numbers in the set.
-    int range = 49;                                                    // Assume selecting integers between 1 and range.
+    int range = 4;                                                   // Assume selecting integers between 1 and range.
     int lucky;                                                         // Holds a lucky number candidate.
     int luckyCount;                                                    // Holds count of lucky numbers in a set.
  
