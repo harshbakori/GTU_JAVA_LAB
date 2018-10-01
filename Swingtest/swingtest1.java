@@ -10,15 +10,12 @@ class Mainframe extends JFrame  //modifiying j frame for our convineant
    // setLayout(new BorderLayout());
 
     button = new JButton("This is a button..!!");
-    textArea = new JTextArea("The text area");
+    button.setPreferredSize(new Dimension(40, 40));
+    //textArea = new JTextArea("The text area");
 
-        add(button);
-        add(textArea);
+        this.add(button);
+      //  add(textArea);
 
-        button.addActionListener(new ActionListener())
-        {
-
-        });
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //close button
     setVisible(true);// visible dialog box
     setSize(600,500); // box sizing
