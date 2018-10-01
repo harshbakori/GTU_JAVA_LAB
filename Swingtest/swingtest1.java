@@ -13,7 +13,7 @@ class Mainframe extends JFrame  //modifiying j frame for our convineant
     button.setPreferredSize(new Dimension(40, 40));
     //textArea = new JTextArea("The text area");
 
-        this.add(button);
+        this.button(button);
       //  add(textArea);
 
     setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //close button
