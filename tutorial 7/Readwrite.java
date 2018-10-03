@@ -2,7 +2,6 @@ import java.io.*;//file output stream demo
 
 class Readwrite
 {
-    
     public static void main(String[] args) throws IOException
     {
         int ch;
