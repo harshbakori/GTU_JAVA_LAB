@@ -6,6 +6,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - OddThreadDemo1",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "OddThreadDemo1",
+            "args": ""
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch)-pro_7",
             "request": "launch",
             "cwd": "${workspaceFolder}",

@@ -30,7 +30,6 @@ class testh
         try
         {
            // runtime.exec("test11.bat");        //opens new notepad instance
- 
              runtime.exec("firefox.exe");
         }
         catch (Exception e)

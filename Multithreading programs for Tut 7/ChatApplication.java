@@ -13,7 +13,6 @@ class Chat {
       flag = true;
       notify();
    }
-
    public synchronized void Answer(String msg) {
       if (!flag) {
          try {
